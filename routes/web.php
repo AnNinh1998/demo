@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 use App\TheLoai;
+use App\Slide;
 Route::get('/', function () {
     return view('welcome');
 });
