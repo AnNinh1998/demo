@@ -23,7 +23,7 @@ class theloaiController extends Controller
                 'Ten'=>'required|unique:TheLoai,Ten|min:3|max:15',
             ],
             [
-                'Ten.required'=>'Bạn chưa nhập tên thể loại',
+                '.required'=>'Bạn chưa nhập tên thể loại',
                 'Ten.unique'=>'Tên thể loại đã tồn tại',
                 'Ten.min'=>'Độ dài tên thể loại chưa đủ',
                 'Ten.max'=>'Bạn đã nhập quá độ dài tên thể loại'
@@ -45,7 +45,7 @@ class theloaiController extends Controller
                 
             ],
             [
-                'ten.required'=>'Bạn chưa nhập tên thể loại',
+                '.required'=>'Bạn chưa nhập tên thể loại',
                 'ten.min'=>'Độ dài tên thể loại chưa đủ',
                 'ten.max'=>'Bạn đã nhập quá độ dài tên thể loại',
                 'ten.unique'=>'Tên thể loại đã tồn tại'
