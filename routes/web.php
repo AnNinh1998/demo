@@ -36,8 +36,14 @@ Route::group(['prefix'=>'admin'],function(){
 	});
 	Route::group(['prefix'=>'loaitin'],function(){
 		Route::get('danhsach','loaitinController@getDanhsach');
-		Route::get('sua','loaitinController@getSua');
+
+		Route::get('sua/{id}','loaitinController@getSua');
+		Route::post('sua/{id}','loaitinController@postSua');
+
 		Route::get('them','loaitinController@getThem');
+		Route::post('them','loaitinController@postThem');
+
+		Route::get('xoa/{id}','loaitinController@getXoa');
 	});
 	Route::group(['prefix'=>'tintuc'],function(){
 		Route::get('danhsach','tintucController@getDanhsach');

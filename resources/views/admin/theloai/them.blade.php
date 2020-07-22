@@ -33,8 +33,8 @@
                                 <input class="form-control" name="ten" placeholder="Nhập tên thể loại"  />
                             </div>
                            
-                            <button type="submit" class="btn btn-default">Category Add</button>
-                            <button type="reset" class="btn btn-default">Reset</button>
+                            <button type="submit" class="btn btn-default">Thêm thể loại</button>
+                            <button type="reset" class="btn btn-default">Làm mới</button>
                         </form>
                     </div>
                 </div>

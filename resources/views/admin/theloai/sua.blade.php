@@ -23,7 +23,7 @@
                                 {{session('thongbao')}}
                             </div>
                             @endif
-                        <form action="" method="POST">
+                        <form action="admin/loaitin/sua/{{$loaitin->id}}" method="POST">
                             <input type="hidden" name="_token" value="{{csrf_token()}}">
                             <div class="form-group">
                                 <label>Tên thê loại</label>
