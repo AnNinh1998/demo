@@ -56,3 +56,4 @@ Route::group(['prefix'=>'admin'],function(){
 		Route::get('them','userController@getThem');
 	});
 });
+Route::get('login','LoginController@login');
